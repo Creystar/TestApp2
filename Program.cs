@@ -8,6 +8,9 @@ class DialogDemo
     static void Main()
     {
         //Отображение диалогового окна:
-        MessageBox.Show("Продолжаем изучать C#");
+            MessageBox.Show("Продолжаем изучать C#", //Сообщение
+            "Третья программа", //Название окна
+            MessageBoxButtons.OKCancel, //Кнопки
+            MessageBoxIcon.Asterisk); //Пиктограмма
     }
 }
